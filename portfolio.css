@@ -49,6 +49,23 @@
     font-weight: 400;
 }
 
+.section-title--two{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.section-description--two{
+    font-size: 16px;
+    color: #757575;
+    font-weight: 400;
+}
+
+.card{
+    padding: 2.2rem 1.3rem;
+    box-shadow: 0 0 12px #0002;
+    border-radius: 6px;
+}
+
 /* nav style */
 
 .header{
@@ -139,7 +156,7 @@ main{
 }
 
 .about-content{
-    border: 1px solid red;
+    border: 2px solid #0007;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -162,3 +179,110 @@ main{
     font-size: 20px;
     font-weight: 800;
 }
+
+/* Task section  */
+#task{
+    margin:100px 0;
+}
+
+#task .task-content{
+    text-align: center;
+}
+
+#task .section-description{
+    margin: 30px 115px 50px;
+}
+
+.task-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.task-card .card{
+    flex-basis: 200px;
+    flex-grow: 1;
+}
+
+.task-card .card > * + *{
+    margin-top: 25px;
+}
+
+
+.card .card-content > * + *{
+    margin-top: 20px;
+}
+
+
+/* Resume part */
+
+/* resume reuse part start here */
+#resume .resume-content{
+    --h4: 30px;
+    --h5: 25px;
+    --h6: 20px;
+
+}
+
+.education-title, .skill-title{
+    font-size: var(--h4);
+    font-weight: 800;
+}
+
+.resume-title{
+    font-size: var(--h5);
+    font-weight: 800;
+    color: #474747;
+}
+
+
+.resume-year{
+    font-size: var(--h6);
+    font-weight: 700;
+    color: #757575;
+    margin: 10px 0 20px;
+}
+
+.resume-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    padding-inline-end: 15px;
+}
+
+/* resume reuse part end here */
+
+#resume{
+    margin: 5rem 0;
+}
+
+#resume .section-title{
+    text-align: center;
+}
+
+#resume .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.resume-content{
+    margin: 83px 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.education , .skill{
+    flex-basis: 511px;
+}
+
+.education > *, .skill > * {
+    margin-top:30px;
+}
+
