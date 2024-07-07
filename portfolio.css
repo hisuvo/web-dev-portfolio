@@ -1,0 +1,164 @@
+
+.open-sans{
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0;
+}
+
+/* shared style */
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    padding: 18px 36px;
+    background-color: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: inline-block;
+}
+.color-2{
+    color: #0008;
+}
+
+
+
+.section-title{
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+}
+
+/* nav style */
+
+.header{
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left top;
+    /* padding-left: 1250px; */
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 100px;
+}
+
+
+nav .nav__title{
+    font-size: 45px;
+    font-weight: 700;
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+nav li a{
+    color: #0007;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+/* Banar style */
+.baner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px 0px 150px;
+}
+
+.baner-content{
+    max-width: 654px;
+}
+
+.banar-text-wlcm{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.baner-title{
+    font-size: 84px;
+    font-weight: bold;
+    margin: 1.2rem 0;
+
+}
+
+.baner-description{
+    font-size: 18px;
+    margin-bottom: 1.875rem;
+}
+.baner-content .btn-primary+.btn-primary{
+    margin-left: 2rem;
+}
+
+.banar-profile-pic{
+    width: 584px;
+}
+/* main section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section */
+
+#about{
+    padding: 125px 152px;
+    margin: 1rem 0;
+    
+}
+
+.about-content{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-items .about-item--title{
+    font-size: 20px;
+    color: #0009;
+}
+.about-items .about-item--description{
+    font-size: 20px;
+    font-weight: 800;
+}
